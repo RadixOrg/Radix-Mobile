@@ -8,7 +8,8 @@ import React from 'react';
 export default function NotFoundScreen() {
   return (
     <>
-    <Redirect href="/ConnectWallet" />
+    {/* <Redirect href="/ConnectWallet" /> */}
+    <Redirect href="/VerificationProduct" />
     </>
   );
 }
